@@ -4,7 +4,7 @@ export default function About() {
       {/* Hero Section */}
       <section className="hero text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About VRS Wilson</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About VRS of Wilson</h1>
           <p className="text-xl text-gray-100">Honoring service. Supporting community. Changing lives.</p>
         </div>
       </section>

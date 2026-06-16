@@ -22,8 +22,9 @@ export default function Footer() {
 
           <div>
             <h4 className="font-semibold text-lg mb-4">Contact</h4>
-            <p className="text-gray-300 mb-2">Email: info@vrswilson.org</p>
-            <p className="text-gray-300">Phone: (555) 123-4567</p>
+            <p className="text-gray-300 mb-2">Email: <a href="mailto:vrswvets@gmail.com.com">vrswvets@gmail.com</a>
+</p>
+            <p className="text-gray-300">Phone: (252) 237-4478</p>
           </div>
 
           <div>

@@ -1,12 +1,31 @@
 import { Link } from 'react-router-dom'
-
+import army from '../assets/Emblem_of_the_U.S._Department_of_the_Army.svg.png'
+import marines from '../assets/emblem_of_the_United_States_Marine_Corps.svg.png'
+import navy from '../assets/Seal_of_the_United_States_Department_of_the_Navy.svg.png'
+import airforce from '../assets/Seal_of_the_United_States_Department_of_the_Air_Force.svg.png'
+import coastguard from '../assets/Seal_of_the_U.S._Coast_Guard.svg.png'
+import spaceforce from '../assets/seal_of_the_United_States_Space_Force.svg.png'
+import flag from '../assets/US-Flag.png'
+import pow from '../assets/pow_flag.png'
 export default function Home() {
   return (
     <div>
       {/* Hero Section */}
       <section className="hero text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to VRS Wilson</h1>
+          <div class="flex">
+          <img src={flag} alt="American Flag" className="mx-auto mb-4 h-36 -mt-9" />
+          <h1 className="text-4xl md:text-4xl font-bold mb-4">Welcome to Veterans Residential Service of Wilson</h1>
+          <img src={pow} alt="American Flag" className="mx-auto mb-4 h-24" />
+          </div>
+         <div class="flex gap-4">
+          <img src={army} alt="U.S. Army Emblem" className="mx-auto mb-8 h-28 wrap" />
+          <img src={marines} alt="U.S. Marine Corps Emblem" className="mx-auto mb-8 h-28 wrap" />
+          <img src={navy} alt="U.S. Navy Emblem" className="mx-auto mb-8 h-28 wrap" />
+          <img src={airforce} alt="U.S. Air Force Emblem" className="mx-auto mb-8 h-28 wrap" />
+          <img src={spaceforce} alt="U.S. Coast Guard Emblem" className="mx-auto mb-8 h-28 wrap" />
+          <img src={coastguard} alt="U.S. Space Force Emblem" className="mx-auto mb-8 h-28 wrap" />
+          </div>
           <p className="text-xl md:text-2xl mb-8 text-gray-100">
             Dedicated to serving and supporting veterans in our community
           </p>

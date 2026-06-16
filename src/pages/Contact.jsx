@@ -47,24 +47,25 @@ export default function Contact() {
               <div className="text-4xl mb-4 text-gold">📍</div>
               <h3 className="text-2xl font-bold text-navy mb-3">Address</h3>
               <p className="text-gray-700">
-                123 Veteran's Way<br />
-                Wilson, NC 27893
+                2500 Nash St. N #E<br />
+                Wilson, NC 27896
               </p>
             </div>
             <div className="text-center p-6">
               <div className="text-4xl mb-4 text-gold">📞</div>
               <h3 className="text-2xl font-bold text-navy mb-3">Phone</h3>
               <p className="text-gray-700">
-                (555) 123-4567<br />
-                Mon - Fri: 9AM - 5PM
+                (252) 237-4478<br />
+                Tues - Thurs: 9am - 1pm
               </p>
             </div>
             <div className="text-center p-6">
               <div className="text-4xl mb-4 text-gold">✉️</div>
               <h3 className="text-2xl font-bold text-navy mb-3">Email</h3>
               <p className="text-gray-700">
-                info@vrswilson.org<br />
-                We'll respond within 24 hours
+                <a href="mailto:vrswvets@gmail.com" className="text-blue-500 hover:underline">
+                  vrswvets@gmail.com
+                </a>
               </p>
             </div>
           </div>
