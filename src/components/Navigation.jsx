@@ -8,10 +8,10 @@ export default function Navigation() {
     <nav className="bg-navy text-white shadow-lg">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center">
-            <span className="font-bold text-2xl text-gold">VRS</span>
-            <span className="ml-2 text-sm hidden sm:inline">Veterans Residential Services</span>
-          </Link>
+          <div to="/" className="flex items-center">
+            <span className="font-bold text-3xl text-gold">VRS</span>
+            <span className="ml-3 text-med">Veterans Residential Services</span>
+          </div>
 
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -22,11 +22,11 @@ export default function Navigation() {
             </svg>
           </button>
 
-          <div className={`hidden md:flex space-x-8`}>
+          <div className={`hidden md:flex space-x-12 text-xl font-bold `}>
             <Link to="/" className="hover:text-gold transition">Home</Link>
             <Link to="/about" className="hover:text-gold transition">About</Link>
             <Link to="/services" className="hover:text-gold transition">Services</Link>
-            <Link to="/testimonials" className="hover:text-gold transition">Testimonials</Link>
+            <Link to="/testimonials" className="hover:text-gold hidden transition">Testimonials</Link>
             <Link to="/contact" className="hover:text-gold transition">Contact</Link>
           </div>
         </div>

@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-blue-800 py-8 text-center text-gray-400">
-          <p>&copy; 2024 Veterans Residential Services of Wilson. All rights reserved.</p>
+          <p>&copy; 2012 Veterans Residential Services of Wilson. All rights reserved.</p>
         </div>
       </div>
     </footer>
