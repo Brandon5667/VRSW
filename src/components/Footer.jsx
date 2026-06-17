@@ -22,7 +22,7 @@ export default function Footer() {
 
           <div>
             <h4 className="font-semibold text-lg mb-4">Contact</h4>
-            <p className="text-gray-300 mb-2">Email: <a href="mailto:vrswvets@gmail.com">vrswvets@gmail.com</a>
+            <p className="text-gray-300 mb-2 " >Email: <a href="mailto:vrswvets@gmail.com" className="hover:text-gold transition">vrswvets@gmail.com</a>
 </p>
             <p className="text-gray-300">Phone: (252) 237-4478</p>
           </div>
@@ -30,9 +30,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-gold transition">Facebook</a>
-              <a href="#" className="hover:text-gold transition">Twitter</a>
-              <a href="#" className="hover:text-gold transition">LinkedIn</a>
+              <a href="https://www.facebook.com/VeteransRSW/" className="hover:text-gold transition">Facebook</a>
+              <a href="#" className="hover:text-gold transition hidden">Twitter</a>
+              <a href="https://www.linkedin.com/company/veterans-residential-services-of-wilson/" className="hover:text-gold transition">LinkedIn</a>
             </div>
           </div>
         </div>

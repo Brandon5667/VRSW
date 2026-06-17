@@ -39,7 +39,7 @@ export default function Navigation() {
             <Link to="/" className="block hover:text-gold transition py-2">Home</Link>
             <Link to="/about" className="block hover:text-gold transition py-2">About</Link>
             <Link to="/services" className="block hover:text-gold transition py-2">Services</Link>
-            <Link to="/testimonials" className="block hover:text-gold transition py-2">Testimonials</Link>
+            <Link to="/testimonials" className="block hover:text-gold transition py-2 hidden">Testimonials</Link>
             <Link to="/contact" className="block hover:text-gold transition py-2">Contact</Link>
           </div>
         )}

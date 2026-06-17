@@ -72,7 +72,7 @@ export default function Contact() {
           </div>
 
           {/* Contact Form */}
-          <div className="max-w-3xl mx-auto bg-gray-50 p-8 rounded-lg">
+          <div className="max-w-3xl mx-auto bg-gray-50 p-8 rounded-lg hidden">
             <h2 className="section-title text-center mb-8">Send us a Message</h2>
             
             {submitted && (
@@ -122,7 +122,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-navy font-semibold mb-2">Message</label>
+                <label className="block text-navy font-semibold mb-2 ">Message</label>
                 <textarea
                   name="message"
                   value={formData.message}

@@ -93,17 +93,10 @@ export default function Services() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-5xl font-bold text-gold mb-2">500+</div>
+              <div className="text-5xl font-bold text-gold mb-2">900+</div>
               <p className="text-lg">Veterans Served</p>
             </div>
-            <div>
-              <div className="text-5xl font-bold text-gold mb-2">1000+</div>
-              <p className="text-lg">Counseling Sessions</p>
-            </div>
-            <div>
-              <div className="text-5xl font-bold text-gold mb-2">250+</div>
-              <p className="text-lg">Jobs Placed</p>
-            </div>
+            
             <div>
               <div className="text-5xl font-bold text-gold mb-2">100%</div>
               <p className="text-lg">Dedication</p>
