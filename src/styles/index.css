@@ -17,17 +17,18 @@ body {
 }
 
 .hero {
-  @apply bg-gradient-to-r from-navy to-blue-900 text-white py-20 px-4;
+  @apply bg-gradient-to-r from-navy to-blue-900 text-white py-16 px-4 sm:py-20;
 }
 
 .section-title {
-  @apply text-3xl md:text-4xl font-bold text-navy mb-6;
+  @apply text-2xl sm:text-3xl md:text-4xl font-bold text-navy mb-6;
 }
 
 .cta-button {
-  @apply bg-gold text-navy px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition;
+  @apply inline-flex items-center justify-center bg-gold text-navy px-6 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition;
 }
 
 .footer-section {
   @apply bg-navy text-white py-12;
 }
+

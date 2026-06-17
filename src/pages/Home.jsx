@@ -12,28 +12,32 @@ export default function Home() {
     <div>
       {/* Hero Section */}
       <section className="hero text-center">
-        <div className="max-w-4xl mx-auto">
-          <div class="flex">
-          <img src={flag} alt="American Flag" className="mx-auto mb-4 h-36 -mt-9" />
-          <h1 className="text-4xl md:text-4xl font-bold mb-4">Welcome to Veterans Residential Service of Wilson</h1>
-          <img src={pow} alt="American Flag" className="mx-auto mb-4 h-24" />
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:items-center">
+            <img src={flag} alt="American Flag" className="h-16 sm:h-24 md:h-32 w-auto" />
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+              Welcome to Veterans Residential Service of Wilson
+            </h1>
+            <img src={pow} alt="POW Flag" className="h-14 sm:h-18 md:h-24 w-auto" />
           </div>
-         <div class="flex gap-4">
-          <img src={army} alt="U.S. Army Emblem" className="mx-auto mb-8 h-28 wrap" />
-          <img src={marines} alt="U.S. Marine Corps Emblem" className="mx-auto mb-8 h-28 wrap" />
-          <img src={navy} alt="U.S. Navy Emblem" className="mx-auto mb-8 h-28 wrap" />
-          <img src={airforce} alt="U.S. Air Force Emblem" className="mx-auto mb-8 h-28 wrap" />
-          <img src={spaceforce} alt="U.S. Coast Guard Emblem" className="mx-auto mb-8 h-28 wrap" />
-          <img src={coastguard} alt="U.S. Space Force Emblem" className="mx-auto mb-8 h-28 wrap" />
+
+          <div className="mt-6 flex flex-wrap justify-center gap-3 sm:gap-4">
+            <img src={army} alt="U.S. Army Emblem" className="h-12 sm:h-16 md:h-20 w-auto" />
+            <img src={marines} alt="U.S. Marine Corps Emblem" className="h-12 sm:h-16 md:h-20 w-auto" />
+            <img src={navy} alt="U.S. Navy Emblem" className="h-12 sm:h-16 md:h-20 w-auto" />
+            <img src={airforce} alt="U.S. Air Force Emblem" className="h-12 sm:h-16 md:h-20 w-auto" />
+            <img src={spaceforce} alt="U.S. Space Force Emblem" className="h-12 sm:h-16 md:h-20 w-auto" />
+            <img src={coastguard} alt="U.S. Coast Guard Emblem" className="h-12 sm:h-16 md:h-20 w-auto" />
           </div>
-          <p className="text-xl md:text-2xl mb-8 text-gray-100">
+
+          <p className="mt-6 text-base sm:text-lg md:text-2xl text-gray-100">
             Dedicated to serving and supporting veterans in our community
           </p>
-          <div className="flex gap-4 justify-center flex-wrap">
-            <Link to="/services" className="cta-button">
+          <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+            <Link to="/services" className="cta-button w-full sm:w-auto">
               Our Services
             </Link>
-            <Link to="/contact" className="cta-button">
+            <Link to="/contact" className="cta-button w-full sm:w-auto">
               Get in Touch
             </Link>
           </div>
