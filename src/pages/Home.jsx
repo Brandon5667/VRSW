@@ -31,7 +31,7 @@ export default function Home() {
           </div>
 
           <p className="mt-6 text-base sm:text-lg md:text-2xl text-gray-100">
-            Dedicated to serving and supporting veterans in our community
+            Dedicated to serving and supporting veterans in Wilson, Nash and surronding counties
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/services" className="cta-button w-full sm:w-auto">
@@ -49,7 +49,8 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="section-title text-center">Our Mission</h2>
           <p className="text-lg text-gray-700 text-center mb-6">
-            Veterans Residential Services of Wilson is committed to providing comprehensive support and services to veterans in our community. We believe in honoring the service and sacrifice of those who have served our nation.
+            Veterans Residential Services of Wilson's mission is to provide quality support and services to it's
+            low-income and at risk Veterans and to enpower them to realize the goals of residential stability in the community.
           </p>
           <p className="text-gray-700 text-center">
             Through our programs and initiatives, we work to improve the quality of life for veterans and their families, ensuring they have access to the resources they need to thrive.
@@ -63,21 +64,21 @@ export default function Home() {
           <h2 className="section-title text-center mb-12">What We Offer</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 bg-blue-50 rounded-lg">
-              <h3 className="text-2xl font-bold text-navy mb-3">Housing Assistance</h3>
+              <h3 className="text-2xl font-bold text-navy mb-3">Locating Housing</h3>
               <p className="text-gray-700">
-                Safe, affordable housing solutions for veterans and their families
+                Helping veterans find affordable housing solutions for themselves and their families
               </p>
             </div>
             <div className="p-6 bg-blue-50 rounded-lg">
-              <h3 className="text-2xl font-bold text-navy mb-3">Support Services</h3>
+              <h3 className="text-2xl font-bold text-navy mb-3">Job Search</h3>
               <p className="text-gray-700">
-                Counseling, case management, and peer support programs
+                Resume Building, Education, and Job Placement Assistance
               </p>
             </div>
             <div className="p-6 bg-blue-50 rounded-lg">
-              <h3 className="text-2xl font-bold text-navy mb-3">Community Programs</h3>
+              <h3 className="text-2xl font-bold text-navy mb-3">Benefit Acquisition Assistance</h3>
               <p className="text-gray-700">
-                Events, workshops, and community engagement initiatives
+                Helping Veterans access the benefits they have earned through their service, including healthcare, education, and financial support
               </p>
             </div>
           </div>

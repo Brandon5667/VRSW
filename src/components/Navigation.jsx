@@ -29,7 +29,7 @@ export default function Navigation() {
             <Link to="/" className="hover:text-gold transition">Home</Link>
             <Link to="/about" className="hover:text-gold transition">About</Link>
             <Link to="/services" className="hover:text-gold transition">Services</Link>
-            <Link to="/testimonials" className="hover:text-gold transition">Testimonials</Link>
+            <Link to="/testimonials" className="hover:text-gold transition hidden">Testimonials</Link>
             <Link to="/contact" className="hover:text-gold transition">Contact</Link>
           </div>
         </div>

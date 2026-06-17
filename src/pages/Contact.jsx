@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import map from '../assets/vrsw_maps.png'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -145,11 +146,13 @@ export default function Contact() {
       </section>
 
       {/* Map Section */}
+  
       <section className="py-16 px-4 bg-gray-100">
         <div className="max-w-6xl mx-auto">
           <h2 className="section-title text-center mb-8">Find Us</h2>
           <div className="bg-gray-300 rounded-lg h-96 flex items-center justify-center">
-            <span className="text-gray-600 text-lg">Map placeholder - Add your location here</span>
+            <span className="text-gray-600 text-lg">
+              <img src={map} alt="U.S. Coast Guard Emblem" className="h-12 sm:h-16 md:h-96 w-auto" /></span>
           </div>
         </div>
       </section>
