@@ -100,7 +100,9 @@ export default function Home() {
           <Link to="/contact" className="bg-navy text-gold px-6 py-3 rounded-lg font-semibold hover:bg-blue-900 transition inline-block">
             Contact Us
           </Link>
-        </div>
+          <div class="flex justify-center w-full"><div id="paypal-container-F9YEZ2DPEK3Z2" class="w-full max-w-md"></div>
+        </div></div>
+          
       </section>
     </div>
   )
