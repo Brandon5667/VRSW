@@ -1,14 +1,27 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script
+      src="https://www.paypal.com/sdk/js?client-id=BAA5LtrQWK_Gq-YNn_v3iv-3l6mOcpJ81sdm6UMjZ5Xsfg7IJkYGGiiKSfZeruwfLusbEGvhNNZFQVONEw&components=hosted-buttons&enable-funding=venmo&currency=USD" 
+        crossorigin="anonymous" 
+        async>
+    </script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/VRSW/assets/favicon-B5UBSyYt.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Veterans Residential Services of Wilson</title>
-    <script type="module" crossorigin src="/VRSW/assets/index-tCP0In23.js"></script>
-    <link rel="stylesheet" crossorigin href="/VRSW/assets/index-DhjulqLn.css">
+    <script type="module" crossorigin src="/VRSW/assets/index-rzf2lYVf.js"></script>
+    <link rel="stylesheet" crossorigin href="/VRSW/assets/index-DvKtOfj9.css">
   </head>
   <body>
+    <script>
+      document.addEventListener("DOMContentLoaded", (event) => {
+        paypal.HostedButtons({
+          hostedButtonId: "F9YEZ2DPEK3Z2"
+      })
+        .render("#paypal-container-F9YEZ2DPEK3Z2")
+      })
+      </script> 
     <div id="root"></div>
   </body>
 </html>
