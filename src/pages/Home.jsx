@@ -49,10 +49,10 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <h2 className="section-title text-center">Our Mission</h2>
           <p className="text-lg text-gray-700 text-center mb-6">
-            Veterans Residential Services of Wilson's mission is to provide quality support and services to it's
-            low-income and at risk Veterans and to enpower them to realize the goals of residential stability in the community.
+            The mission of Veterans Residential Services of Wilson is to provide quality support and services to it's
+            low-income and at risk Veterans and to empower them to realize the goals of residential stability in the community.
           </p>
-          <p className="text-gray-700 text-center">
+          <p className="text-lg text-gray-700 text-center mb-6">
             Through our programs and initiatives, we work to improve the quality of life for veterans and their families, ensuring they have access to the resources they need to thrive.
           </p>
         </div>

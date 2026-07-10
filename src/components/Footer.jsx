@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 py-12">
           <div>
             <h3 className="font-bold text-lg text-gold mb-4">VRS Wilson</h3>
-            <p className="text-gray-300">Supporting veterans in Wilson, Nash and surronding counties</p>
+            <p className="text-gray-300">Supporting veterans in Wilson, Nash and surrounding counties</p>
           </div>
 
           <div>
