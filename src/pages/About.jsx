@@ -16,7 +16,7 @@ export default function About() {
           <p className="text-gray-700 text-lg mb-6">
             Veterans Residential Services of Wilson was founded on the principle that those who have served our country deserve our unwavering support. We believe that veterans are valuable members of our community whose contributions extend far beyond their military service.
           </p>
-          <p className="text-gray-700 text-lg mb-6"> Through case managment services and working with other commuinty resources, VRSW assists low-income Veterans with thier goal of achieving stable housing.
+          <p className="text-gray-700 text-lg mb-6"> Through case managment services and working with other commuinty resources, VRSW assists low-income Veterans with there goal of achieving stable housing.
           </p>
           <p className="text-gray-700 text-lg mb-6">To do this, VRSW works with the North Carolina Veterans Affairs Office, Vocational Rehabilitation, DAV, VFW, American Legion, Vietnam Veterans Associations (VVA), Department of Social Services, Community Colleges, employers and other area resources.
           </p>

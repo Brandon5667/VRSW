@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:items-center">
             <img src={flag} alt="American Flag" className="h-16 sm:h-24 md:h-32 w-auto" />
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-              Welcome to Veterans Residential Service of Wilson
+              Welcome to Veterans Residential Services of Wilson
             </h1>
             <img src={pow} alt="POW Flag" className="h-14 sm:h-18 md:h-24 w-auto" />
           </div>
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
 
           <p className="mt-6 text-base sm:text-lg md:text-2xl text-gray-100">
-            Dedicated to serving and supporting veterans in Wilson, Nash and surronding counties
+            Dedicated to serving and supporting veterans in Wilson, Nash and surrounding counties
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/services" className="cta-button w-full sm:w-auto">

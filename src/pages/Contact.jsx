@@ -49,6 +49,7 @@ export default function Contact() {
               <h3 className="text-2xl font-bold text-navy mb-3">Address</h3>
               <p className="text-gray-700">
                 2500 Nash St. N #E<br />
+                Suite E<br />
                 Wilson, NC 27896
               </p>
             </div>
