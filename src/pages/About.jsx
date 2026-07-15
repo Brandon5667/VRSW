@@ -62,7 +62,7 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4 hidden">
         <div className="max-w-6xl mx-auto">
           <h2 className="section-title text-center mb-12">Our Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

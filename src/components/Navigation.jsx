@@ -28,9 +28,10 @@ export default function Navigation() {
           <div className="hidden md:flex space-x-6 lg:space-x-12 text-base lg:text-xl font-bold">
             <Link to="/" className="hover:text-gold transition">Home</Link>
             <Link to="/about" className="hover:text-gold transition">About</Link>
-            <Link to="/services" className="hover:text-gold transition">Services</Link>
+            <Link to="/services" className="hover:text-gold transition hidden">Services</Link>
             <Link to="/testimonials" className="hover:text-gold transition hidden">Testimonials</Link>
             <Link to="/contact" className="hover:text-gold transition">Contact</Link>
+            <Link to="/golf" className="hover:text-gold transition">Golf</Link>
           </div>
         </div>
 
@@ -38,9 +39,10 @@ export default function Navigation() {
           <div className="md:hidden pb-4 space-y-2 border-t border-blue-800 pt-3">
             <Link to="/" className="block hover:text-gold transition py-2">Home</Link>
             <Link to="/about" className="block hover:text-gold transition py-2">About</Link>
-            <Link to="/services" className="block hover:text-gold transition py-2">Services</Link>
+            <Link to="/services" className="block hover:text-gold transition py-2 hidden">Services</Link>
             <Link to="/testimonials" className="block hover:text-gold transition py-2 hidden">Testimonials</Link>
             <Link to="/contact" className="block hover:text-gold transition py-2">Contact</Link>
+            <Link to="/golf" className="block hover:text-gold transition py-2">Golf</Link>
           </div>
         )}
       </div>

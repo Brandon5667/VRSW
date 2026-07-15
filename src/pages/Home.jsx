@@ -100,9 +100,12 @@ export default function Home() {
           <Link to="/contact" className="bg-navy text-gold px-6 py-3 rounded-lg font-semibold hover:bg-blue-900 transition inline-block">
             Contact Us
           </Link>
-          <div class="flex justify-center w-full"><div id="paypal-container-F9YEZ2DPEK3Z2" class="w-full max-w-md"></div>
-        </div></div>
-          
+          <div>
+            <button onClick={() => window.location.href = 'https://www.paypal.com/ncp/payment/YL8T3EECCR5FN'} className="bg-navy text-gold px-6 py-3 rounded-lg font-semibold hover:bg-blue-900 transition inline-block mt-4">
+              Donate Now
+            </button>
+          </div>
+        </div>
       </section>
     </div>
   )
