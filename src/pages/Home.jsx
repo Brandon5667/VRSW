@@ -15,7 +15,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:items-center">
             <img src={flag} alt="American Flag" className="h-16 sm:h-24 md:h-32 w-auto" />
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-montserrat leading-tight">
               Welcome to Veterans Residential Services of Wilson
             </h1>
             <img src={pow} alt="POW Flag" className="h-14 sm:h-18 md:h-24 w-auto" />
@@ -34,9 +34,7 @@ export default function Home() {
             Dedicated to serving and supporting veterans in Wilson, Nash and surrounding counties
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-            <Link to="/services" className="cta-button w-full sm:w-auto">
-              Our Services
-            </Link>
+            
             <Link to="/contact" className="cta-button w-full sm:w-auto">
               Get in Touch
             </Link>
@@ -50,7 +48,7 @@ export default function Home() {
           <h2 className="section-title text-center">Our Mission</h2>
           <p className="text-lg text-gray-700 text-center mb-6">
             The mission of Veterans Residential Services of Wilson is to provide quality support and services to it's
-            low-income and at risk Veterans and to empower them to realize the goals of residential stability in the community.
+            low-income and at-risk Veterans and to empower them to realize the goals of residential stability in the community.
           </p>
           <p className="text-lg text-gray-700 text-center mb-6">
             Through our programs and initiatives, we work to improve the quality of life for veterans and their families, ensuring they have access to the resources they need to thrive.

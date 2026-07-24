@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <nav className="bg-navy text-white shadow-lg">
@@ -26,23 +27,23 @@ export default function Navigation() {
           </button>
 
           <div className="hidden md:flex space-x-6 lg:space-x-12 text-base lg:text-xl font-bold">
-            <Link to="/" className="hover:text-gold transition">Home</Link>
-            <Link to="/about" className="hover:text-gold transition">About</Link>
-            <Link to="/services" className="hover:text-gold transition hidden">Services</Link>
-            <Link to="/testimonials" className="hover:text-gold transition hidden">Testimonials</Link>
-            <Link to="/contact" className="hover:text-gold transition">Contact</Link>
-            <Link to="/golf" className="hover:text-gold transition">Golf</Link>
+            <Link to="/" onClick={closeMenu} className="hover:text-gold transition">Home</Link>
+            <Link to="/about" onClick={closeMenu} className="hover:text-gold transition">About</Link>
+            <Link to="/services" onClick={closeMenu} className="hover:text-gold transition hidden">Services</Link>
+            <Link to="/testimonials" onClick={closeMenu} className="hover:text-gold transition hidden">Testimonials</Link>
+            <Link to="/contact" onClick={closeMenu} className="hover:text-gold transition">Contact</Link>
+            <Link to="/golf" onClick={closeMenu} className="hover:text-gold transition">Golf Tournament</Link>
           </div>
         </div>
 
         {isOpen && (
           <div className="md:hidden pb-4 space-y-2 border-t border-blue-800 pt-3">
-            <Link to="/" className="block hover:text-gold transition py-2">Home</Link>
-            <Link to="/about" className="block hover:text-gold transition py-2">About</Link>
-            <Link to="/services" className="block hover:text-gold transition py-2 hidden">Services</Link>
-            <Link to="/testimonials" className="block hover:text-gold transition py-2 hidden">Testimonials</Link>
-            <Link to="/contact" className="block hover:text-gold transition py-2">Contact</Link>
-            <Link to="/golf" className="block hover:text-gold transition py-2">Golf</Link>
+            <Link to="/" onClick={closeMenu} className="block hover:text-gold transition py-2">Home</Link>
+            <Link to="/about" onClick={closeMenu} className="block hover:text-gold transition py-2">About</Link>
+            <Link to="/services" onClick={closeMenu} className="block hover:text-gold transition py-2 hidden">Services</Link>
+            <Link to="/testimonials" onClick={closeMenu} className="block hover:text-gold transition py-2 hidden">Testimonials</Link>
+            <Link to="/contact" onClick={closeMenu} className="block hover:text-gold transition py-2">Contact</Link>
+            <Link to="/golf" onClick={closeMenu} className="block hover:text-gold transition py-2">Golf Tournament</Link>
           </div>
         )}
       </div>
